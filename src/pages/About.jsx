@@ -4,6 +4,8 @@ import './stylesheets/About.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
+import profile_image from '../assets/images/profile-image.png';
+
 import { useLayoutEffect } from "react";
 import { useLocation } from "react-router-dom";
 
@@ -64,7 +66,7 @@ const About = () => {
             <div className='about-page-content'>
                 <div className='introduction-contanier'>
                     <div className='profile-image-placeholder'>
-                        <img src="/images/profile-image.png"/>
+                        <img src={profile_image}/>
                     </div>
                     <div className='intro-text'>
                         <div className='intro-heading'><i>Hi there,</i> I’m Divyanshu</div>

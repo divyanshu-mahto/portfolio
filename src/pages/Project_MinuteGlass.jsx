@@ -2,6 +2,9 @@ import React from 'react'
 import { useLayoutEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
+
+import minute_glass_big from "../assets/images/minute-glass-big.png";
+
 import './stylesheets/Project_Details.css'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
@@ -31,7 +34,7 @@ const Project_MinuteGlass = () => {
                     <div className='project-description'>A decentralized marketplace on Ethereum where users pay only for the time used on service websites, replacing the traditional subscription model.</div>
 
                     <div className='big-image-placeholder'>
-                        <img src="/images/minute-glass-big.png" />
+                        <img src={minute_glass_big} />
                     </div>
 
                     <div className='project-introduction-section'>

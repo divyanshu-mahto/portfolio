@@ -2,6 +2,9 @@ import React from 'react'
 import { useLayoutEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
+
+import dumbqr_big from '../assets/images/dumbqr-big.png';
+
 import './stylesheets/Project_Details.css'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
@@ -31,7 +34,7 @@ const Project_Dumbqr = () => {
                     <div className='project-description'>It is a dynamic QR code platform that allows users to update the destination URL without changing the QR code, while also providing detailed analytics, including the location of each scan.</div>
 
                     <div className='big-image-placeholder'>
-                        <img src="/images/dumbqr-big.png" />
+                        <img src={dumbqr_big} />
                     </div>
 
                     <div className='project-introduction-section'>

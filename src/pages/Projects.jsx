@@ -2,6 +2,9 @@ import React from 'react'
 import { useLayoutEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
+import dumbqr_small from '../assets/images/dumbqr-small.png';
+import minute_glass_small from '../assets/images/minute-glass-small.png';
+
 import './stylesheets/Projects.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
@@ -38,7 +41,7 @@ const Projects = () => {
                         {/* Project-1 */}
                         <div className='project-container'>
                             <div className='small-image-placeholder'>
-                                <img src="/images/dumbqr-small.png" />
+                                <img src={dumbqr_small} />
                             </div>
                             <div className='about-project'>
                                 <div className='project-text'>
@@ -94,7 +97,7 @@ const Projects = () => {
                         {/* Project-4 */}
                         <div className='project-container'>
                             <div className='small-image-placeholder'>
-                                <img src="/images/minute-glass-small.png" />
+                                <img src={minute_glass_small} />
                             </div>
                             <div className='about-project'>
                                 <div className='project-text'>
