@@ -51,7 +51,11 @@ const router = createBrowserRouter([
     path: "/resume",
     element: <Resume />
   },
-])
+],
+{
+  basename: "/portfolio"
+}
+)
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
