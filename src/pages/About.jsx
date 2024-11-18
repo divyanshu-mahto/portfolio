@@ -72,7 +72,7 @@ const About = () => {
                         <div className='intro-heading'><i>Hi there,</i> I’m Divyanshu</div>
                         <div className='intro-content'>just a little bit about me - I am natively from Bihar, but currently based in Tamil Nadu studying Information Technology.<br/><br/> 
 
-Most of the time i am attending classes but In my<br/> spare time, you can find me watching web-series, playing football and scrolling X</div>
+Most of the time i am attending classes but In my spare time, you can find me watching web-series, playing football and scrolling X</div>
                     </div>
                 </div>
                 <div className='about-section-2-container'>

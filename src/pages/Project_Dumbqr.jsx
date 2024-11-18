@@ -40,7 +40,7 @@ const Project_Dumbqr = () => {
                     <div className='project-introduction-section'>
                         <div className='basic-introduction'>
                             <p className='basic-intro-heading'>Context</p>
-                            <p className='basic-intro-text'>While I was building a simple URL shortener, I got the idea that changing redirect links while keeping the short URL the same could also be implemented with QR codes. This would allow us to change the destination of a QR code without modifying the actual QR code itself, meaning the same printed or distributed QR code could be reused for future links.
+                            <p className='basic-intro-text'>When I was building the URL shortener, I got the idea that changing redirect links while keeping the short URL the same could also be implemented with QR codes. This would allow us to change the destination of a QR code without modifying the actual QR code itself, meaning the same printed or distributed QR code could be reused for future links.
                                 I started working on the project. Since I am exploring development in Java at the time, it was the perfect opportunity to try this out with that tech stack. As of now the core functionality is complete—the backend APIs are working well, and I am currently designing the UI while brainstorming new features to add to the app.
                             </p>
                             <p className='tech-stack'>Technologies used:

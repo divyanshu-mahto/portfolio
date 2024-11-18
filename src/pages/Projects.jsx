@@ -49,7 +49,7 @@ const Projects = () => {
                                         DumbQR
                                         <span className="dev-status">IN DEVELOPMENT</span>
                                     </div>
-                                    <div className='project-text-description'>a dynamic QR code platform that allows users to update the destination URL without changing the QR code, while also providing detailed analytics, including the location of each scan.</div>
+                                    <div className='project-text-description'>A dynamic QR code platform that allows users to update the destination URL without changing the QR code, while also providing detailed analytics, including the location of each scan.</div>
                                 </div>
                                 <Link to={"/projects/dumbqr"} className='go-to-button'>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 12 12" fill="none">
