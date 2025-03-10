@@ -44,7 +44,7 @@ const Project_Dumbqr = () => {
                                 I started working on the project. Since I am exploring development in Java at the time, it was the perfect opportunity to try this out with that tech stack. As of now the core functionality is complete—the backend APIs are working well, and I am currently designing the UI while brainstorming new features to add to the app.
                             </p>
                             <p className='tech-stack'>Technologies used:
-                                <span className='technologies'>  SpringBoot, Java, MongoDB</span>
+                                <span className='technologies'>  SpringBoot, Java, PostgreSQL, Redis</span>
                             </p>
                         </div>
                         <div className='quick-info'>
@@ -76,7 +76,7 @@ const Project_Dumbqr = () => {
                         <ul className="extra-content-text">
                             <li>Implementing authentication using JWT (JSON Web Tokens).</li>
                             <li>Utilizing the ZXing library in Java to generate QR codes.</li>
-                            <li>Integrating MongoDB with Spring Boot applications effectively.</li>
+                            <li>Integrating PostgreSQL with Spring Boot applications effectively.</li>
                             <li>Fetching geolocation of scans using IP and an external geolocation API.</li>
                         </ul>
                     </div>
