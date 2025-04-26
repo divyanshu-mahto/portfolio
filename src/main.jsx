@@ -53,7 +53,7 @@ const router = createBrowserRouter([
   },
 ],
 {
-  basename: "/portfolio"
+  basename: "/"
 }
 )
 
