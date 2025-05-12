@@ -2,7 +2,7 @@ import React from 'react'
 import { useLayoutEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
-import dumbqr_small from '../assets/images/dumbqr-small.png';
+import dumbqrxyz_small from '../assets/images/dumbqrxyz-small.png';
 import minute_glass_small from '../assets/images/minute-glass-small.png';
 
 import './stylesheets/Projects.css'
@@ -41,13 +41,13 @@ const Projects = () => {
                         {/* Project-1 */}
                         <div className='project-container'>
                             <div className='small-image-placeholder'>
-                                <img src={dumbqr_small} />
+                                <img src={dumbqrxyz_small} />
                             </div>
                             <div className='about-project'>
                                 <div className='project-text'>
                                     <div className='project-text-heading'>
                                         DumbQR
-                                        <span className="dev-status">IN DEVELOPMENT</span>
+                                        <span className="dev-status">LIVE</span>
                                     </div>
                                     <div className='project-text-description'>A dynamic QR code platform that allows users to update the destination URL without changing the QR code, while also providing detailed analytics, including the location of each scan.</div>
                                 </div>
@@ -60,7 +60,7 @@ const Projects = () => {
                         </div>
 
                         {/* Project-2 */}
-                        <div className='project-container'>
+                        {/* <div className='project-container'>
                             <div className='small-image-placeholder'></div>
                             <div className='about-project'>
                                 <div className='project-text'>
@@ -76,7 +76,7 @@ const Projects = () => {
                                     </svg>
                                 </Link>
                             </div>
-                        </div>
+                        </div> */}
 
                         {/* Project-3 */}
                         <div className='project-container'>
@@ -113,7 +113,7 @@ const Projects = () => {
                         </div>
 
                         {/* Project-5 */}
-                        <div className='project-container'>
+                        {/* <div className='project-container'>
                             <div className='small-image-placeholder'></div>
                             <div className='about-project'>
                                 <div className='project-text'>
@@ -126,7 +126,7 @@ const Projects = () => {
                                     </svg>
                                 </Link>
                             </div>
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>

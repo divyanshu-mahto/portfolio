@@ -35,18 +35,18 @@ const router = createBrowserRouter([
     path: "/projects/email-service-springboot",
     element: <Project_AWS_SES />
   },
-  {
-    path: "/projects/trip-planner-gtfs-neo4j",
-    element: <Project_GTFS />
-  },
+  // {
+  //   path: "/projects/trip-planner-gtfs-neo4j",
+  //   element: <Project_GTFS />
+  // },
   {
     path: "/projects/minuteglass",
     element: <Project_MinuteGlass />
   },
-  {
-    path: "/projects/url-shortener",
-    element: <Project_URL_shortener />
-  },
+  // {
+  //   path: "/projects/url-shortener",
+  //   element: <Project_URL_shortener />
+  // },
   {
     path: "/resume",
     element: <Resume />

@@ -70,9 +70,9 @@ const About = () => {
                     </div>
                     <div className='intro-text'>
                         <div className='intro-heading'><i>Hi there,</i> I’m Divyanshu</div>
-                        <div className='intro-content'>just a little bit about me - I am natively from Bihar, but currently based in Tamil Nadu studying Information Technology.<br/><br/> 
+                        <div className='intro-content'>just a little bit about me - I am a 3rd year student, studying Information Technology and soon to become an engineer.<br/><br/> 
 
-Most of the time i am attending classes but In my spare time, you can find me learning new tech, playing football and scrolling X<br/><br/>
+Most of the time i am attending classes but In my spare time, you can find building fun projects, playing football or scrolling X<br/><br/>
 Do checkout my  <div className='social-link'><Link to={"/projects"} className='link-text'>Projects</Link></div> 
 </div>
                     </div>
@@ -80,9 +80,9 @@ Do checkout my  <div className='social-link'><Link to={"/projects"} className='l
                 <div className='about-section-2-container'>
                     <div className='section-2-text'>
                         <div className='section-2-heading'>Fun facts about me</div>
-                        <div className='section-2-content'>I still use wired earphones,<br/>
-                                listening to my favorite songs on repeat.<br/>
-                                I’m into F1—that’s just who I am.
+                        <div className='section-2-content'>I still use wired earphones, mostly for<br/>
+                                listening to songs on repeat.<br/>
+                                and watching F1 races on the weekend.
                             <br/>
                         </div>
                     </div>
