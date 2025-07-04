@@ -28,11 +28,11 @@ function Navbar() {
   return (
     <nav className={`nav-bar ${showNavbar ? 'visible' : 'hidden'}`}>
       <div className='navbar-container'>
-        <Link to={"/"} className='logo'>DM</Link>
+        <Link to={"/"} className='logo'>DM.</Link>
         <div className='links'>
-          <Link to={"/about"} className='navbar-link'>About</Link>
-          <Link to={"/projects"} className='navbar-link'>Projects</Link>
-          <Link to={"/resume"} className='resume-button'>Resume</Link>
+          <Link to={"/about"} className='navbar-link'><b>About</b></Link>
+          <Link to={"/#projects"} className='navbar-link'><b>Projects</b></Link>
+          <Link to={"/resume"} className='resume-button'><b>Resume</b></Link>
         </div>
       </div>
     </nav>

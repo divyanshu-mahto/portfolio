@@ -4,24 +4,22 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh; /* Ensures the container takes up the full viewport height */
+    min-height: 100vh; 
     padding: 20px;
-    box-sizing: border-box; /* Ensures padding is accounted for in sizing */
+    box-sizing: border-box; 
 }
 .about-page-container {
-    /* display: flex;
-    width: 872.875px;
-    align-items: flex-start; */
+
     display: flex;
     flex-direction: row;
     width: 100%;
-    max-width: 872px; /* Align the width with the navbar */
+    max-width: 872px; 
     align-items: flex-start;
-    justify-content: space-between; /* Adds spacing between left and right sections */
-    gap: 40px; /* Initial gap between sections */
-    padding: 0px; /* Adds padding for overall spacing */
+    justify-content: space-between; 
+    gap: 40px; 
+    padding: 0px; 
     box-sizing: border-box;
-    margin: 0 auto; /* Center the container horizontally */
+    margin: 0 auto;
 }
 .about-page-content{
     display: flex;
@@ -74,7 +72,7 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
-    line-height: 25px; /* 156.25% */
+    line-height: 25px; 
 }
 .about-section-2-container{
     display: flex;
@@ -110,7 +108,7 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
-    line-height: 25px; /* 156.25% */
+    line-height: 25px; 
 }
 
 /* PAGE INFO*/
@@ -151,7 +149,7 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
-    line-height: 25px; /* 156.25% */
+    line-height: 25px; 
     padding: 0;
     margin: 0;
 }
@@ -175,7 +173,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 25px; /* 138.889% */
+    line-height: 25px; 
     text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-skip-ink: none;
@@ -191,13 +189,13 @@
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
-        max-width: 872px; /* Align the width with the navbar */
+        max-width: 872px; 
         align-items: flex-start;
-        justify-content: space-between; /* Adds spacing between left and right sections */
-        gap: 0px; /* Initial gap between sections */
-        padding: 0px; /* Adds padding for overall spacing */
+        justify-content: space-between; 
+        gap: 0px; 
+        padding: 0px; 
         box-sizing: border-box;
-        margin: 0 auto; /* Center the container horizontally */
+        margin: 0 auto; 
     }
     .about-page-content{
         display: flex;
@@ -222,7 +220,6 @@
         align-self: stretch;
         border-radius: 10px;
         background-color: #f6f6f6;
-        /* margin-bottom: 10px; */
     }
     .profile-image-placeholder img {
         height: auto;
@@ -250,7 +247,7 @@
         font-size: 16px;
         font-style: normal;
         font-weight: 300;
-        line-height: 25px; /* 156.25% */
+        line-height: 25px; 
     }
     .about-section-2-container{
         display: flex;
@@ -286,7 +283,7 @@
         font-size: 16px;
         font-style: normal;
         font-weight: 300;
-        line-height: 25px; /* 156.25% */
+        line-height: 25px; 
     }
 
     /* PAGE INFO*/
@@ -318,7 +315,7 @@
         font-size: 16px;
         font-style: normal;
         font-weight: 300;
-        line-height: 25px; /* 156.25% */
+        line-height: 25px;
         padding: 0;
         margin: 0;
     }
@@ -342,7 +339,7 @@
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
-        line-height: 25px; /* 138.889% */
+        line-height: 25px;
         text-decoration-line: underline;
         text-decoration-style: solid;
         text-decoration-skip-ink: none;
@@ -350,5 +347,4 @@
         text-underline-offset: auto;
         text-underline-position: from-font;
     }
-    
 }

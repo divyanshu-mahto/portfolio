@@ -4,21 +4,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh; /* Ensures the container takes up the full viewport height */
+    min-height: 100vh; 
     padding: 20px;
-    box-sizing: border-box; /* Ensures padding is accounted for in sizing */
+    box-sizing: border-box; 
 }
 .projects-page-container {
     display: flex;
     flex-direction: row;
     width: 100%;
-    max-width: 872px; /* Align the width with the navbar */
+    max-width: 872px;
     align-items: flex-start;
-    justify-content: space-between; /* Adds spacing between left and right sections */
-    gap: 40px; /* Initial gap between sections */
-    padding: 0px; /* Adds padding for overall spacing */
+    justify-content: space-between;
+    gap: 40px; 
+    padding: 0px; 
     box-sizing: border-box;
-    margin: 0 auto; /* Center the container horizontally */
+    margin: 0 auto; 
 }
 .page-content{
     display: flex;
@@ -43,7 +43,7 @@
     border-radius: 10px;
     background-color: #f6f6f6;
     margin-bottom: 10px;
-    position: relative; /* Create a positioning context for the text */
+    position: relative; 
     display: inline-block; 
 }
 .small-image-placeholder img {
@@ -72,7 +72,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    display: inline-block;  /* Ensures the heading and "dev" text align inline */
+    display: inline-block; 
     align-items: center;
 }
 .dev-status {
@@ -164,13 +164,10 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
-    line-height: 25px; /* 156.25% */
+    line-height: 25px; 
     padding: 0;
     margin: 0;
 }
-
-
-
 
 
 @media screen and (max-width: 750px) {
@@ -178,13 +175,13 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        max-width: 872px; /* Align the width with the navbar */
+        max-width: 872px; 
         align-items: flex-start;
-        justify-content: space-between; /* Adds spacing between left and right sections */
-        gap: 0px; /* Initial gap between sections */
-        padding: 0px; /* Adds padding for overall spacing */
+        justify-content: space-between; 
+        gap: 0px;
+        padding: 0px; 
         box-sizing: border-box;
-        margin: 0 auto; /* Center the container horizontally */
+        margin: 0 auto; 
         margin-top: 110px;
     }
     .page-content{
@@ -235,12 +232,8 @@
         font-size: 16px;
         font-style: normal;
         font-weight: 300;
-        line-height: 25px; /* 156.25% */
+        line-height: 25px;
         padding: 0;
         margin: 0;
     }
-
-
-
-    
 }

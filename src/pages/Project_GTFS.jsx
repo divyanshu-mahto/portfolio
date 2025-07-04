@@ -84,3 +84,22 @@ const Project_GTFS = () => {
 }
 
 export default Project_GTFS
+
+{/* Project-2 */}
+{/* <div className='project-container'>
+    <div className='small-image-placeholder'></div>
+    <div className='about-project'>
+        <div className='project-text'>
+            <div className='project-text-heading'>
+                Trip Planner using GTFS in Neo4j
+                <span className="dev-status">IN DEVELOPMENT</span>
+            </div>
+            <div className='project-text-description'>A spring boot application that loads GTFS data into Neo4j graph database and provide trip planning api's.</div>
+        </div>
+        <Link to={"/projects/trip-planner-gtfs-neo4j"} className='go-to-button'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 12 12" fill="none">
+                <path d="M10.2828 3.78284C10.4391 3.62663 10.4391 3.37337 10.2828 3.21716L7.73726 0.671574C7.58105 0.515364 7.32778 0.515364 7.17157 0.671574C7.01536 0.827783 7.01536 1.08105 7.17157 1.23726L9.43431 3.5L7.17157 5.76274C7.01536 5.91895 7.01536 6.17222 7.17157 6.32843C7.32778 6.48464 7.58105 6.48464 7.73726 6.32843L10.2828 3.78284ZM-3.49691e-08 3.9L10 3.9L10 3.1L3.49691e-08 3.1L-3.49691e-08 3.9Z" fill="black" />
+            </svg>
+        </Link>
+    </div>
+</div> */}

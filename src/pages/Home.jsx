@@ -1,21 +1,45 @@
 import React from 'react'
-import { useLayoutEffect } from "react";
+import { useLayoutEffect, useRef, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 import dumbqrxyz_small from '../assets/images/dumbqrxyz-small.png';
 import minute_glass_small from '../assets/images/minute-glass-small.png';
+import peep_small from '../assets/images/peep-small.png';
+import colon_key from '../assets/images/colon-key.png';
+import down_key from '../assets/images/down-key.png';
+import parenthesis_key from '../assets/images/parentesis-open.png';
+import accolade_open_key from '../assets/images/accolade-open-key.png';
+import accolade_close_key from '../assets/images/accolade-close-key.png';
+import waves from '../assets/images/download.mp4';
 
-import './stylesheets/Projects.css'
+import './stylesheets/Home.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-const Projects = () => {
+const Home = () => {
 
     const location = useLocation();
     useLayoutEffect(() => {
         document.documentElement.scrollTo({ top: 0, left: 0, behavior: "instant" });
     }, [location.pathname]);
 
+    const projectSectionRef = useRef(null);
+    
+    useEffect(() => {
+        if (location.hash) {
+        const id = location.hash.substring(1);
+
+        const element = document.getElementById(id);
+
+        if (element) {
+            element.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+            });
+        }
+        
+        }
+    }, [location]);
 
     return (
         <>
@@ -23,7 +47,14 @@ const Projects = () => {
 
                 {/* Header */}
                 <Navbar />
-                <div className='projects-page-container'>
+
+                <div className='home-container'>
+                    <div className='home-vid'><video loop autoPlay muted className='waves'><source src={waves} type="video/mp4"/></video></div>
+                    <div className='home-heading'> <span><img className='key-1' src={accolade_open_key}></img></span> <i>Divyanshu</i> <span><img className='key-1' src={accolade_close_key}></img></span> is a final year computer science student. Navigating his way through tech and building software that makes an impact. <span><img className='key-2' src={colon_key}></img></span>  <span><img className='key-2' src={parenthesis_key}></img></span> </div>
+                    <div className='down-key'><img className='key-4' src={down_key}></img></div>
+                </div>
+
+                <div className='projects-page-container' id='projects' ref={projectSectionRef}>
 
                     {/* Page Info */}
                     <div className='projects-page-info-outer-container'>
@@ -61,7 +92,9 @@ const Projects = () => {
 
                         {/* Project-2 */}
                         <div className='project-container'>
-                            <div className='small-image-placeholder'></div>
+                            <div className='small-image-placeholder'>
+                                <img src={peep_small} />
+                            </div>
                             <div className='about-project'>
                                 <div className='project-text'>
                                     <div className='project-text-heading'>
@@ -121,4 +154,4 @@ const Projects = () => {
     )
 }
 
-export default Projects
+export default Home
